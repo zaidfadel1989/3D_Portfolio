@@ -1,3 +1,7 @@
+import moody from "../assets/moody.png";
+import trivia from "../assets/trivia.png";
+import world from "../assets/world.png";
+import volt from "../assets/volt.png"
 import {
   mobile,
   backend,
@@ -224,6 +228,28 @@ const testimonials = [
 ];
 
 const projects = [
+{
+    name: "Project With (HTML,CSS,JavaScript)",
+    description:
+      "Curious explorer of logic puzzles turned creative coder. My background in mathematics fuels my passion for crafting efficient, scalable web solutions. Explore my projects—from apartment finders and dealership apps to interactive games—and check out my toolkit: HTML5, CSS, JavaScript, React, Node.js, databases like MongoDB and Firebase, and more.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carrent,
+    source_code_link: "https://github.com/zaidfadel1989/Train-7_app.index",
+  },
+
   {
     name: "Vape Project",
     description:
@@ -242,34 +268,14 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Project With (HTML,CSS,JavaScript)",
-    description:
-      "Curious explorer of logic puzzles turned creative coder. My background in mathematics fuels my passion for crafting efficient, scalable web solutions. Explore my projects—from apartment finders and dealership apps to interactive games—and check out my toolkit: HTML5, CSS, JavaScript, React, Node.js, databases like MongoDB and Firebase, and more.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/zaidfadel1989/Vape-Website",
   },
+  
   {
-    name: "Crystal Collector",
+    name: "AirVolt",
     description:
-      "Crystal Collector – Interactive JavaScript Game A fun and engaging gem-collecting game implemented using pure JavaScript, HTML, and CSS. Players aim to collect a certain number of crystals, with the interface dynamically updating goals, wins, losses, and overall score as they play. A great example of DOM manipulation, game logic, and clean UI design.",
+      "AirVolt is a fast, lightweight, and responsive web application built using React and Vite, designed to deliver a clean user experience with optimized performance. The project features a modern UI, organized components, dynamic content sections, and an efficient development setup suitable for scalable front-end applications.",
     tags: [
       {
         name: "nextjs",
@@ -284,8 +290,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: volt,
+    source_code_link: "https://github.com/zaidfadel1989/AirVolt",
   },
 
   {
@@ -306,30 +312,31 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: moody,
+    source_code_link: "https://github.com/zaidfadel1989/zaid-portfolio.index?tab=readme-ov-file",
   },
   {
-    name: "Harry Potter Trivia Game",
-    description:
-      "Harry Potter Trivia Game – Engaging Web Quiz A playful and interactive Harry Potter–themed trivia game built using HTML, CSS, and JavaScript. Featuring a “Start” screen that transitions into a series of trivia questions, it highlights dynamic DOM manipulation, event handling, and a fun, theme-driven design.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
+  name: "Harry Potter Trivia Game",
+  description:
+    "Harry Potter Trivia Game – Engaging Web Quiz A playful and interactive Harry Potter–themed trivia game built using HTML, CSS, and JavaScript. Featuring a “Start” screen that transitions into a series of trivia questions, it highlights dynamic DOM manipulation, event handling, and a fun, theme-driven design.",
+  tags: [
+    {
+      name: "nextjs",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "supabase",
+      color: "green-text-gradient",
+    },
+    {
+      name: "css",
+      color: "pink-text-gradient",
+    },
+  ],
+  image: trivia,
+  source_code_link: "https://github.com/zaidfadel1989/my-portfolio1?tab=readme-ov-file",
+},
+
   {
     name: "ChangeTheWorld",
     description:
@@ -348,8 +355,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: world,
+    source_code_link: "https://github.com/zaidfadel1989/ChangeTheWord",
   },
 ];
 
