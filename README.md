@@ -64,8 +64,8 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone git@github.com:adrianhajdin/project_3D_developer_portfolio.git
-cd project_3D_developer_portfolio
+git clone https://zaidfadel1989.github.io/3D_Portfolio/
+cd 3D_Portfolio
 ```
 
 **Installation**
